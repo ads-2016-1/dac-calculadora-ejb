@@ -30,7 +30,17 @@ public class ControladorCalculadora{
         resultado = calculadora.somar(a, b);
         return null;
     }
-
+    
+    public String subtrair(){
+        resultado = calculadora.subtrair(a, b);
+        return null;
+    }
+    
+    public String multiplicar(){
+        resultado = calculadora.multiplicar(a, b);
+        return null;
+    }
+    
     public int getA() {
         return a;
     }

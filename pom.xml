@@ -11,5 +11,6 @@
   <modules>
     <module>shared</module>
     <module>core</module>
+    <module>web</module>
   </modules>
 </project>
